@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "osaka-re";
+  src: local("osaka-re"), url(/fonts/OSAKA-RE.TTF);
+}
+
+.body {
+  background-image: url(/images/bg_wrap_pc.jpg);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+  font-family: "osaka-re";
+  color: blueviolet;
+  text-align: center;
+}
